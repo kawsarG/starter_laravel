@@ -1,0 +1,5 @@
+@isset($role) 
+    @foreach($role->permissions as  $rp) 
+        {{$permission->id == rP->id? 'checked':''}} 
+    @endforeach
+@endisset
